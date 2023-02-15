@@ -48,7 +48,7 @@ public class Employee_service_Controller
 		service.save(existe);
 		return new ResponseEntity<>(HttpStatus.OK);
 	}
-	@DeleteMapping("/Employeeservice/{u_id}")
+	@DeleteMapping("/Employeeservice/{e_id}")
 	public void delete(@PathVariable Integer e_id)
 	{
 		service.delete(e_id);

@@ -5,7 +5,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+
 @Entity
+
 public class Emp 
 {
 	 private Integer e_id;
@@ -70,6 +72,6 @@ public class Emp
 	}
 	public String toString()
 	{
-		return "Employee[employeeid :"+e_id+" employeename :"+e_name+" employeeemail :"+e_email+" employeephone :"+e_phno+" employee_address:"+e_addr+"]";
+		return "Emp[employeeid :"+e_id+" employeename :"+e_name+" employeeemail :"+e_email+" employeephone :"+e_phno+" employee_address:"+e_addr+"]";
 	}
 }
