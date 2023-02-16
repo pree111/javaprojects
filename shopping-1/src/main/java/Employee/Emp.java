@@ -70,6 +70,7 @@ public class Emp
 	public void setE_phno(int e_phno) {
 		this.e_phno = e_phno;
 	}
+	@Override
 	public String toString()
 	{
 		return "Emp[employeeid :"+e_id+" employeename :"+e_name+" employeeemail :"+e_email+" employeephone :"+e_phno+" employee_address:"+e_addr+"]";
